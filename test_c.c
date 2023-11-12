@@ -115,7 +115,7 @@ ossl_cipher_alloc(VALUE klass)
  *
  *  A list of cipher names is available by calling OpenSSL::Cipher.ciphers.
  */
-static VALUE
+//static VALUE
 ossl_cipher_initialize(VALUE self, VALUE str)
 {
     EVP_CIPHER_CTX *ctx;
